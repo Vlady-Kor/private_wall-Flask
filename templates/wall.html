@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Wall</title>
+    <link rel="stylesheet" type="text/css"  href="{{ url_for('static', filename='style.css') }}" />
+</head>
+<body>
+    <h1>Coding Dojo Wall</h1>
+    <h3>Welcome, {{ session['username'] }}</h3>
+    <div class="container2">
+        <div id="first">
+            <h3>Message(s) for You</h3>
+            {% for x in messages2 %}
+            <p>{{x.text_message}}</p>
+            {% endfor %}
+        </div>
+        <br>
+        <div id="second">
+            <h3>Send Messages</h3>
+            <p>You have sent {{ message3}} messages so far</p>
+            
+            {% for message in messages %}
+            <form action="/sent" method="POST">
+                <p>{{message.first_name}} {{message.last_name}}: <input type="text" name="don_mess"> <input type="submit" value="Send"></p>
+                <input type="hidden" name="reciever" value="{{message.user_id}}">
+            </form>
+            {% endfor %}
+            <a href="/logout">Logout</a>
+        </div>
+    </div>
+
+</body>
+</html>

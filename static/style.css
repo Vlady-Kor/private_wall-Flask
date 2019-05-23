@@ -1,0 +1,113 @@
+.container{
+    text-align: center;
+    /* border:1px solid red; */
+}
+.page{
+    display: inline-block;
+    border: 2px solid black;
+    width: 350px;
+    margin-right: 20%;
+    border-radius: 20px;
+
+}
+form{
+    margin-left: 10px;
+}
+h3 {
+    margin-left: 10px;
+}
+.login{
+    display: inline-block;
+    border: 2px solid black;
+    width: 300px;
+    border-radius: 20px;
+    vertical-align: top;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse; 
+}
+th, td {
+    padding: 5px;
+}
+th {
+    text-align: left;
+}
+table {
+    width: 50%;
+}
+.line {
+    border: 2px solid black;
+}
+.line {
+    border: 2px solid black;
+}
+.ctrips{
+    display: inline-block;
+    border: 2px solid black;
+    width: 350px;
+}
+.etrips{
+    display: inline-block;
+    border: 2px solid black;
+    width: 350px;
+}
+.dtrips{
+    display: inline-block;
+    border: 2px solid black;
+    width: 350px;
+}
+.input_box{
+    height: 75px;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.greeting{
+    display: inline-block;
+    /* border: 1px solid red; */
+}
+.button_dash {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.log_out{
+    display: inline-block;
+    position: relative;
+    left: 517px;
+
+}
+.h_dash{
+    display: inline-block;
+}
+.buttn_dash{
+    display: inline-block;
+    position: relative;
+    left: 500px
+}
+#first{
+    display: inline-block;
+    width: auto;
+}
+#second{
+    display: inline-block;
+    width: auto;
+}
+.container2{
+    display: inline-block;
+}
